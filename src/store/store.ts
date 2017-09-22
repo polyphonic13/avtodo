@@ -10,5 +10,3 @@ export const createStore = () => new Vuex.Store({
         todoLabel
     }
 });
-
-console.log('STORE, todo.getters.getServerStatus = ', todo.getters.getServerStatus(todo.state));
